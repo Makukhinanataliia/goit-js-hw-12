@@ -1,6 +1,6 @@
 import { refs } from './refs';
 import { renderImages } from './renderImages';
-import { getImages } from './getImages';
+import { getImages } from './pixabay-api';
 import { showLoader } from './loader';
 import { hideLoader } from './loader';
 import { showError } from './showError';

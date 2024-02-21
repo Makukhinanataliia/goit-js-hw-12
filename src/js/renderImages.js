@@ -1,6 +1,6 @@
 import { refs } from './refs';
 import { showError } from './showError';
-import { templateForImages} from './templateForImages';
+import { templateForImages} from './render-functions';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
