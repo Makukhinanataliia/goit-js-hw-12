@@ -1,5 +1,4 @@
 import { refs } from './js/refs';
-import { onFormSubmit } from './js/onFormSubmit';
-import { clickOnLoadMore} from './js/onFormSubmit';
+import { onFormSubmit, clickOnLoadMore } from './js/onFormSubmit';
 refs.form.addEventListener('submit', onFormSubmit);
 refs.LoadMore.addEventListener('click', clickOnLoadMore);
