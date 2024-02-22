@@ -1,8 +1,7 @@
 import { refs } from './refs';
 import { renderImages } from './renderImages';
 import { getImages } from './pixabay-api';
-import { showLoader } from './loader';
-import { hideLoader } from './loader';
+import { showLoader, hideLoader } from './loader';
 import { showError } from './showError';
 
 export function onFormSubmit(event) {
