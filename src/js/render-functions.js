@@ -1,13 +1,13 @@
-export function templateForImages(images) {
-    const {
-      largeImageURL,
-      webformatURL,
-      tags,
-      likes,
-      views,
-      comments,
-      downloads,
-    } = image;
+export function templateForImage(image) {
+  const {
+    largeImageURL,
+    webformatURL,
+    tags,
+    likes,
+    views,
+    comments,
+    downloads,
+  } = image;
   return `<li class="gallery-item">
             <a class="gallery-link" href="${largeImageURL}">
               <img class="gallery-image" src="${webformatURL}" alt="${tags}" />
@@ -21,5 +21,5 @@ export function templateForImages(images) {
           </li>`;
 }
 export function templateForImages(images) {
-  return images.map(templateForImages).join('');
+  return images.map(templateForImage).join('');
 }
