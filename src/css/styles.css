@@ -136,8 +136,9 @@ button:hover {
   background: #6c8cff;
 }
 
+
 .btn {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .loader {
@@ -173,6 +174,3 @@ button:hover {
   opacity: 0;
 }
 
-#loader {
-  margin-top: 24px;
-}
