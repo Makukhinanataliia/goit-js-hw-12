@@ -139,7 +139,9 @@ button:hover {
 .btn {
   margin: 0 auto;
 } 
-
+#loader {
+  margin-top: 24px;
+}
 
 .loader {
   position: relative;
@@ -167,3 +169,4 @@ button:hover {
   display: none;
   opacity: 0;
 }
+
